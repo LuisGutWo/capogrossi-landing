@@ -1,24 +1,25 @@
-// import { Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 // import { useUserContext } from "./context/UserContext";
-import Header from "./components/header/Header";
-import HeroSection from "./components/hero/HeroSection";
-import TopBar from "./components/topbar/TopBar";
+import Home from "./components/Home";
+import Header from "./components/Header";
+import HeroSection from "./components/HeroSection";
+import TopBar from "./components/TopBar";
 
 function App() {
   // const { user } = useUserContext();
 
   return (
     <div id="app">
-        {/* <TopBar /> */}
+        <TopBar />
         <Header />
-        {/* <HeroSection /> */}
+        <HeroSection />
 
 
-      {/* <main>
-        <Routes>
-          <Route path="/login" element={<Login />} />
-        </Routes>
-      </main> */}
+      <main>
+        {/* <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes> */}
+      </main>
     </div>
   );
 }

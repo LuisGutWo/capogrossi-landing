@@ -6,10 +6,8 @@ const Header = () => {
     <div id="header" className="fixed-top d-flex align-items-center">
       <div className="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
         <h1 className="logo me-auto me-lg-0">
-          <a href="index.html">Capogrossi</a>
+        <a href="index.html" className="logo me-auto me-lg-0"><img src="src/assets/img/capo-negro.png" alt="user" className="img-fluid"/></a>
         </h1>
-        {/* Uncomment below if you prefer to use an image logo
-      <a href="index.html" className="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" className="img-fluid"></a> */}
 
         <nav id="navbar" className="navbar order-last order-lg-0">
           <ul>
