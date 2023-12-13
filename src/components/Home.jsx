@@ -1,12 +1,14 @@
-import React from 'react'
+import React from "react";
+import WhyUsSection from "./WhyUsSection";
+import AboutSection from "./AboutSection";
 
 const Home = () => {
   return (
     <div>
-        <h1>This is Home section</h1>
-      
+      <AboutSection />
+      <WhyUsSection />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

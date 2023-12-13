@@ -5,10 +5,10 @@ const TopBar = () => {
     <div id="topbar" className="d-flex align-items-center fixed-top">
       <div className="container d-flex justify-content-center justify-content-md-between">
         <div className="contact-info d-flex align-items-center">
-          <i className="bi bi-phone d-flex align-items-center">
+          <i className="bx bx-phone d-flex align-items-center">
             <span>+56 9 20390272</span>
           </i>
-          <i className="bi bi-clock d-flex align-items-center ms-4">
+          <i className="bx bx-time-five d-flex align-items-center ms-4">
             <span> Lun-Sab: 12:30 - 23:00</span>
           </i>
         </div>

@@ -11,9 +11,9 @@ const HeroSection = () => {
         <div className="row">
           <div className="col-lg-8">
             <h1>
-              <span>Restaurante Fe</span>
+              <span>Capogrossi</span>
             </h1>
-            <h2>Gastronomía Chilena Travesti</h2>
+            <h2>Cucina y Bar</h2>
 
             <div className="btns">
               <a href="#menu" className="btn-menu animated fadeInUp scrollto">
