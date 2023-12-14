@@ -15,33 +15,38 @@ import GallerySection from "./components/GallerySection";
 import ChefsSection from "./components/ChefsSection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
+import NotFound from "./utils/NotFound";
 
 function App() {
   // const { user } = useUserContext();
 
   return (
     <div id="app">
-        <TopBar />
-        <Header />
-        <HeroSection />
-        <AboutSection />
-        <WhyUsSection />
-        <MenuSection />
-        <SpecialsSection />
-        <EventsSection />
-        <BookATableSection />
-        <TestimonialsSection />
-        <GallerySection />
-        <ChefsSection />
-        <ContactSection />
-        <Footer />
+      <TopBar />
+      <Header />
 
-
-      {/* <main>
+      <main id="main">
         <Routes>
-          <Route path="/" element={<AboutSection />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/heroSection" element={<HeroSection />} />
+          <Route path="/about" element={<AboutSection />} />
+          <Route path="/whyUs" element={<WhyUsSection />} />
+          <Route path="/menu" element={<MenuSection />} />
+          <Route path="/specials" element={<SpecialsSection />} />
+          <Route path="/events" element={<EventsSection />} />
+          <Route path="/bookATable" element={<BookATableSection />} />
+          <Route path="/testimonials" element={<TestimonialsSection />} />
+          <Route path="/gallery" element={<GallerySection />} />
+          <Route path="/chefs" element={<ChefsSection />} />
+          <Route path="/contact" element={<ContactSection />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
-      </main> */}
+      </main>
+
+      {/* <div id="preloader"></div> */}
+      {/* <BackToTopButton />
+      <WhatsAppButton /> */}
+      <Footer />
     </div>
   );
 }

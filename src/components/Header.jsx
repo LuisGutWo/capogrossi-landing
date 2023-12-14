@@ -1,15 +1,20 @@
 import React from "react";
-import { Nav } from "react-bootstrap";
+import { Container, Nav } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
     <div id="header" className="fixed-top d-flex align-items-center">
       <div className="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
-        <h1 className="logo me-auto me-lg-0">
-        <a href="index.html" className="logo me-auto me-lg-0"><img src="src/assets/img/capo-negro.png" alt="user" className="img-fluid"/></a>
-        </h1>
+        <a className="logo me-auto me-lg-0" href="#hero">
+          <img
+            src="src/assets/img/capo-negro.png"
+            alt="user"
+            className="img-fluid"
+          />
+        </a>
 
-        <nav id="navbar" className="navbar order-last order-lg-0">
+        <Container id="navbar" className="navbar order-last order-lg-0">
           <ul>
             <li>
               <a className="nav-link scrollto active" href="#hero">
@@ -52,8 +57,8 @@ const Header = () => {
               </a>
             </li>
           </ul>
-          <i className="bi bi-list mobile-nav-toggle"></i>
-        </nav>
+          <i className="bx bx-list-ul bx-burst bx-rotate-90 mobile-nav-toggle"></i>
+        </Container>
         <a
           href="#book-a-table"
           className="book-a-table-btn scrollto d-none d-lg-flex"

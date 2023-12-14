@@ -1,13 +1,31 @@
 import React from "react";
 import WhyUsSection from "./WhyUsSection";
 import AboutSection from "./AboutSection";
+import MenuSection from "./MenuSection";
+import SpecialsSection from "./SpecialsSection";
+import EventsSection from "./EventsSection";
+import BookATableSection from "./BookATableSection";
+import TestimonialsSection from "./TestimonialsSection";
+import GallerySection from "./GallerySection";
+import ChefsSection from "./ChefsSection";
+import ContactSection from "./ContactSection";
+import HeroSection from "./HeroSection";
 
 const Home = () => {
   return (
-    <div>
+    <>
+      <HeroSection />
       <AboutSection />
       <WhyUsSection />
-    </div>
+      <MenuSection />
+      <SpecialsSection />
+      <EventsSection />
+      <BookATableSection />
+      <TestimonialsSection />
+      <GallerySection />
+      <ChefsSection />
+      <ContactSection />
+    </>
   );
 };
 

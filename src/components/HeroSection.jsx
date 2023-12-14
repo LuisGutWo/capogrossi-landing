@@ -10,10 +10,11 @@ const HeroSection = () => {
       >
         <div className="row">
           <div className="col-lg-8">
-            <h1>
-              <span>Capogrossi</span>
-            </h1>
-            <h2>Cucina y Bar</h2>
+            <img
+              src="src/assets/img/capo-blanco-1024x500.png"
+              alt=""
+              className="hero-img"
+            />
 
             <div className="btns">
               <a href="#menu" className="btn-menu animated fadeInUp scrollto">

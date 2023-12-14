@@ -1,38 +1,51 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const AboutSection = () => {
   return (
     <section id="about" className="about">
       <div className="container" data-aos="fade-up">
-
         <div className="row">
-          <div className="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
-            <div className="about-img">
-              <img src="src/assets/img/about.jpg" alt="" />
-            </div>
+          <div
+            className="col-lg-6 order-1 order-lg-2"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <Link to={"/gallery"}>
+              <div className="about-img">
+                <img src="src/assets/img/capogrossi_fachada.jpg" alt="" />
+              </div>
+            </Link>
           </div>
           <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <h3>La nostra historia</h3>
             <p className="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              Capogrossi nació en Roma, Italia. En 1922, una familia fundo un
+              pintoresco restaurante en el corazón de Fluminicino. Con casi un
+              siglo de presencia, Capogrossi mantiene intacta su esencia, sus
+              sabores tradicionales y las clásicas recetas de la abuela Filomena,
+              icono de la cocina romana.
             </p>
-            <ul>
-              <li><i className="bx bx-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i className="bx bx-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i className="bx bx-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-            </ul>
+
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
+              A 100 años de su inauguración, su encanto viaja miles de
+              kilómetros para abrir sus puertas en Santiago de Chile, de la mano
+              de los prestigiosos chefs Andrea Bernardi y Fernanda Fuentes,
+              ambos galardonados actualmente con estrella Michelin en su
+              restaurante Nub (Canarias).
+            </p>
+            <p>
+              En este nuevo restaurante, nuestros chefs vienen a fusionar la
+              tradición de la abuela Filomena, sus recuerdos y raíces
+              culturales, con su modernidad e innovación gastronómica,
+              manteniendo siempre los sabores inquebrantables de la dieta
+              mediterránea italiana.
             </p>
           </div>
         </div>
-
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutSection
+export default AboutSection;
