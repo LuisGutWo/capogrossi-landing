@@ -1,23 +1,23 @@
-import React from "react";
+// import React, { useEffect, useState } from "react";
 import { Container, Nav } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
+
   return (
-    <div id="header" className="fixed-top d-flex align-items-center">
+    <header id="header" className="d-flex align-items-center">
       <div className="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
-        <a className="logo me-auto me-lg-0" href="#hero">
+        <a className="logo me-auto me-lg-0" href="#topbar">
           <img
             src="src/assets/img/capo-negro.png"
             alt="user"
             className="img-fluid"
           />
         </a>
-
-        <Container id="navbar" className="navbar order-last order-lg-0">
+        <Container id="navbar" className="navbar order-last order-lg-0 d-flex justify-content-end pe-4">
           <ul>
             <li>
-              <a className="nav-link scrollto active" href="#hero">
+              <a className="nav-link scrollto active" href="#topbar">
                 Home
               </a>
             </li>
@@ -66,7 +66,7 @@ const Header = () => {
           Reservas
         </a>
       </div>
-    </div>
+    </header>
   );
 };
 

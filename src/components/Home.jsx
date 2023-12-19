@@ -9,12 +9,10 @@ import TestimonialsSection from "./TestimonialsSection";
 import GallerySection from "./GallerySection";
 import ChefsSection from "./ChefsSection";
 import ContactSection from "./ContactSection";
-import HeroSection from "./HeroSection";
 
 const Home = () => {
   return (
     <>
-      <HeroSection />
       <AboutSection />
       <WhyUsSection />
       <MenuSection />

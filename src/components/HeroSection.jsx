@@ -1,5 +1,9 @@
 import React from "react";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 const HeroSection = () => {
   return (
     <section id="hero" className="d-flex align-items-center">
@@ -35,6 +39,8 @@ const HeroSection = () => {
           >
             <a
               href="https://www.youtube.com/watch?v=u6BOC7CDUTQ"
+              rel="noreferrer"
+              target="_blank"
               className="glightbox play-btn"
             ></a>
           </div>

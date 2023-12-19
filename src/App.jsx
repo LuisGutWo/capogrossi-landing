@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 // import { useUserContext } from "./context/UserContext";
 import Home from "./components/Home";
@@ -18,17 +19,29 @@ import Footer from "./components/Footer";
 import NotFound from "./utils/NotFound";
 
 function App() {
+  const [sticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setSticky(window.scrollY > 200);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   // const { user } = useUserContext();
 
   return (
     <div id="app">
       <TopBar />
-      <Header />
+      <header className={`${sticky ? "sticky" : ""}`}>
+        <Header />
+      </header>
+      <HeroSection />
 
       <main id="main">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/heroSection" element={<HeroSection />} />
           <Route path="/about" element={<AboutSection />} />
           <Route path="/whyUs" element={<WhyUsSection />} />
           <Route path="/menu" element={<MenuSection />} />
