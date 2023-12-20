@@ -12,7 +12,7 @@ const TestimonialsSection = () => {
       <div className="container" data-aos="fade-up">
         <div className="section-title">
           <h2>Testimonios</h2>
-          <p>Ellos dijeron de nosotros</p>
+          <p>Historias de experiencias</p>
         </div>
 
         <div
@@ -31,10 +31,9 @@ const TestimonialsSection = () => {
               <div className="testimonial-item">
                 <p>
                   <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec
-                  porttitora entum suscipit rhoncus. Accusantium quam, ultricies
-                  eget id, aliquam eget nibh et. Maecen aliquam, risus at
-                  semper.
+                  Se nota la pasión y dedicación que entregan estos muchachos en
+                  su dia a dia, nos encanto el calor humano que se percibe.
+                  Hermosa experiencia.
                   <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img
@@ -42,8 +41,7 @@ const TestimonialsSection = () => {
                   className="testimonial-img"
                   alt=""
                 />
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <h3>Pedro Muñoz</h3>
               </div>
             </SwiperSlide>
             {/* <!-- End testimonial item --> */}
@@ -52,10 +50,9 @@ const TestimonialsSection = () => {
               <div className="testimonial-item">
                 <p>
                   <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse
-                  labore quem cillum quid cillum eram malis quorum velit fore
-                  eram velit sunt aliqua noster fugiat irure amet legam anim
-                  culpa.
+                  Cada vez que volvemos a Capogrossi es un agrado desde que
+                  entramos a la puerta como hasta que pedimos la cuenta.
+                  Excelente servicio y maravillosa comida.
                   <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img
@@ -63,17 +60,16 @@ const TestimonialsSection = () => {
                   className="testimonial-img"
                   alt=""
                 />
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <h3>Paola Wong</h3>
               </div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
               <div className="testimonial-item">
                 <p>
                   <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint
-                  quorum nulla quem veniam duis minim tempor labore quem eram
-                  duis noster aute amet eram fore quis sint minim.
+                  Encontrar la misma calidad tanto en el servicio como en la
+                  comida es algo impagable hoy en dia. Se nota la calidad de
+                  profesionales que son.
                   <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img
@@ -81,8 +77,7 @@ const TestimonialsSection = () => {
                   className="testimonial-img"
                   alt=""
                 />
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <h3>Janna Coleman</h3>
               </div>
             </SwiperSlide>
             {/* <!-- End testimonial item --> */}
@@ -91,10 +86,10 @@ const TestimonialsSection = () => {
               <div className="testimonial-item">
                 <p>
                   <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa
-                  multos export minim fugiat minim velit minim dolor enim duis
-                  veniam ipsum anim magna sunt elit fore quem dolore labore
-                  illum veniam.
+                  Me apasiona la comida Italiana, sus sabores tradicionales y
+                  característicos es lo que la hace famosa y Capogrossi
+                  definitivamente lo logra. Lo recomiendo a ojos cerrados,
+                  dejate llevar de la mano de ellos.
                   <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img
@@ -102,8 +97,7 @@ const TestimonialsSection = () => {
                   className="testimonial-img"
                   alt=""
                 />
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
+                <h3>Matias Calderon</h3>
               </div>
             </SwiperSlide>
             {/* <!-- End testimonial item --> */}
@@ -112,10 +106,10 @@ const TestimonialsSection = () => {
               <div className="testimonial-item">
                 <p>
                   <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
-                  veniam tempor noster veniam enim culpa labore duis sunt culpa
-                  nulla illum cillum fugiat legam esse veniam culpa fore nisi
-                  cillum quid.
+                  Vivo fuera de Santiago, pero cada vez que viajo Capogrossi es
+                  una parada que nunca puedo dejar pasar. Me encanta su calidez,
+                  su buena calidad de la comida y lo agradable de sus meseros.
+                  Simplemente único.
                   <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img
@@ -123,8 +117,7 @@ const TestimonialsSection = () => {
                   className="testimonial-img"
                   alt=""
                 />
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
+                <h3>Rodrigo Sepulveda</h3>
               </div>
             </SwiperSlide>
             {/* <!-- End testimonial item --> */}

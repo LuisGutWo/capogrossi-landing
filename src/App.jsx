@@ -9,7 +9,6 @@ import AboutSection from "./components/AboutSection";
 import WhyUsSection from "./components/WhyUsSection";
 import MenuSection from "./components/MenuSection";
 import SpecialsSection from "./components/SpecialsSection";
-import EventsSection from "./components/EventsSection";
 import BookATableSection from "./components/BookATableSection";
 import TestimonialsSection from "./components/TestimonialsSection";
 import GallerySection from "./components/GallerySection";
@@ -46,7 +45,6 @@ function App() {
           <Route path="/whyUs" element={<WhyUsSection />} />
           <Route path="/menu" element={<MenuSection />} />
           <Route path="/specials" element={<SpecialsSection />} />
-          <Route path="/events" element={<EventsSection />} />
           <Route path="/bookATable" element={<BookATableSection />} />
           <Route path="/testimonials" element={<TestimonialsSection />} />
           <Route path="/gallery" element={<GallerySection />} />

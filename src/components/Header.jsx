@@ -33,12 +33,7 @@ const Header = () => {
             </li>
             <li>
               <a className="nav-link scrollto" href="#specials">
-                Especialidad
-              </a>
-            </li>
-            <li>
-              <a className="nav-link scrollto" href="#events">
-                Eventos
+                Especiales
               </a>
             </li>
             <li>
