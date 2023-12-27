@@ -1,9 +1,10 @@
 // import React, { useEffect, useState } from "react";
 import { Container, Nav } from "react-bootstrap";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { BiAlignLeft } from "react-icons/bi";
+import ImgLogo2 from "../../public/img/capo-negro.png";
 
 const Header = () => {
   return (
@@ -19,11 +20,7 @@ const Header = () => {
           className="navbar order-last order-lg-0 d-flex justify-content-end pe-4"
         >
           <Navbar.Brand href="#topbar" className="logo me-auto me-lg-0">
-            <img
-              src="src/assets/img/capo-negro.png"
-              alt="user"
-              className="img-fluid"
-            />
+            <img src={ImgLogo2} alt="user" className="img-fluid" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <BiAlignLeft style={{ color: "Background" }} />

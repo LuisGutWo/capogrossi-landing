@@ -925,9 +925,26 @@ section {
 /*--------------------------------------------------------------
 # Specials
 --------------------------------------------------------------*/
-.specials {
+#specials {
   overflow: hidden;
+  background-image: url(public/img/fondo_ingredientes-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
+#specials::before{
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.9;
+  /*background-color: #000;*/
+  background-color: rgba(0, 0, 0, 0.804);
+}
+
+
 
 .specials .nav-tabs {
   border: 0;

@@ -1,4 +1,5 @@
 import React from "react";
+import ImgLogo1 from "../../public/img/capo-blanco-1024x500.png"
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -15,7 +16,7 @@ const HeroSection = () => {
         <div className="row">
           <div className="col-lg-8">
             <img
-              src="src/assets/img/capo-blanco-1024x500.png"
+              src={ImgLogo1}
               alt=""
               className="hero-img"
             />

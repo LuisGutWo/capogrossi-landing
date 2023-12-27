@@ -12,7 +12,7 @@ const SpecialsSection = () => {
       <Container className="container" data-aos="fade-up">
         <div className="section-title">
           <h2>lo nuevo de esta temporada</h2>
-          <p>El Chef recomienda</p>
+          <p>La selección del Chef de esta semana...</p>
         </div>
 
         <Tab.Container defaultActiveKey="tab-1">

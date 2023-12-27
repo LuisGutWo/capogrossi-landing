@@ -1,4 +1,6 @@
 import React from "react";
+import ImgChef1 from "../../public/img/45A2533-1_bn-683x1024.jpg"
+import ImgChef2 from "../../public/img/45A2615-1_bn-683x1024.jpg"
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -19,7 +21,7 @@ const ChefsSection = () => {
           <div className="col-lg-4 col-md-6">
             <div className="member" data-aos="zoom-in" data-aos-delay="100">
               <img
-                src="src/assets/img/45A2615-1_bn-683x1024.jpg"
+                src={ImgChef1}
                 className="img-fluid"
                 alt=""
               />
@@ -48,7 +50,7 @@ const ChefsSection = () => {
           <div className="col-lg-4 col-md-6">
             <div className="member" data-aos="zoom-in" data-aos-delay="200">
               <img
-                src="src/assets/img/45A2533-1_bn-683x1024.jpg"
+                src={ImgChef2}
                 className="img-fluid"
                 alt=""
               />
