@@ -8,14 +8,13 @@ const Footer = () => {
           <div className="row">
             <div className="col-lg-3 col-md-6">
               <div className="footer-info">
-                <h3>Restaurantly</h3>
+                <img src="src/assets/img/capo-blanco-1024x500.png" alt="" />
                 <p>
-                  A108 Adam Street <br />
-                  NY 535022, USA
+                  Alonso de Cordova 4225, Vitacura. Stg. Chile.
                   <br />
-                  <strong>Phone:</strong> +1 5589 55488 55
+                  <strong>Teléf:</strong> +569 920323333
                   <br />
-                  <strong>Email:</strong> info@example.com
+                  <strong>Correo:</strong> contacto@capogrossi.cl
                   <br />
                 </p>
                 <div className="social-links mt-3">
@@ -39,61 +38,43 @@ const Footer = () => {
             </div>
 
             <div className="col-lg-2 col-md-6 footer-links">
-              <h4>Useful Links</h4>
+              <h4>Links Corporativos</h4>
               <ul>
                 <li>
                   <i className="bx bx-chevron-right"></i> <a href="#">Home</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">About us</a>
+                  <a href="#">Acerca de nosotros</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Services</a>
+                  <a href="#">Reservas</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Terms of service</a>
-                </li>
-                <li>
-                  <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Privacy policy</a>
+                  <a href="#">Políticas Internas</a>
                 </li>
               </ul>
             </div>
 
             <div className="col-lg-3 col-md-6 footer-links">
-              <h4>Our Services</h4>
+              <h4>Nuestros Servicios</h4>
               <ul>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Web Design</a>
+                  <a href="#">Eventos especiales</a>
                 </li>
                 <li>
-                  <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Web Development</a>
-                </li>
-                <li>
-                  <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Product Management</a>
-                </li>
-                <li>
-                  <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Marketing</a>
-                </li>
-                <li>
-                  <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Graphic Design</a>
+                  <i className="bx bx-chevron-right"></i> <a href="#">Menu</a>
                 </li>
               </ul>
             </div>
 
             <div className="col-lg-4 col-md-6 footer-newsletter">
-              <h4>Our Newsletter</h4>
+              <h4>Nuestras Novedades</h4>
               <p>
-                Tamen quem nulla quae legam multos aute sint culpa legam noster
-                magna
+                Entérate primero de nuestras novedades, productos de temporada y actualizaciones de nuestra carta directamente a tu correo.
               </p>
               <form action="" method="post">
                 <input type="email" name="email" />

@@ -13,7 +13,7 @@ const BookATableSection = () => {
           <p>100% online</p>
         </div>
         <a
-          className="book-a-table-btn scrollto d-none d-lg-flex"
+          className="book-a-table-btn scrollto d-lg-flex"
           href="https://capogrossi.cl/reservas/"
           target="_blank"
         >

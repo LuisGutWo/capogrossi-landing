@@ -1,66 +1,70 @@
 // import React, { useEffect, useState } from "react";
 import { Container, Nav } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import { BiAlignLeft } from "react-icons/bi";
 
 const Header = () => {
-
   return (
     <header id="header" className="d-flex align-items-center">
-      <div className="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
-        <a className="logo me-auto me-lg-0" href="#topbar">
-          <img
-            src="src/assets/img/capo-negro.png"
-            alt="user"
-            className="img-fluid"
-          />
-        </a>
-        <Container id="navbar" className="navbar order-last order-lg-0 d-flex justify-content-end pe-4">
-          <ul>
-            <li>
-              <a className="nav-link scrollto active" href="#topbar">
+      <Navbar
+        expand="lg"
+        variant="dark"
+        className="container-fluid container-xl d-flex align-items-center justify-content-lg-between ps-4"
+      >
+        <Container
+          fluid
+          id="navbar"
+          className="navbar order-last order-lg-0 d-flex justify-content-end pe-4"
+        >
+          <Navbar.Brand href="#topbar" className="logo me-auto me-lg-0">
+            <img
+              src="src/assets/img/capo-negro.png"
+              alt="user"
+              className="img-fluid"
+            />
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav">
+            <BiAlignLeft style={{ color: "Background" }} />
+          </Navbar.Toggle>
+          <Navbar.Collapse id="navbarScroll">
+            <Nav
+              className="ms-auto my-2 my-lg-0"
+              style={{ maxHeight: "230px" }}
+              navbarScroll
+            >
+              <NavDropdown.Item className="nav-link scrollto" href="#topbar">
                 Home
-              </a>
-            </li>
-            <li>
-              <a className="nav-link scrollto" href="#about">
+              </NavDropdown.Item>
+              <NavDropdown.Item className="nav-link scrollto" href="#about">
                 Nosotros
-              </a>
-            </li>
-            <li>
-              <a className="nav-link scrollto" href="#menu">
+              </NavDropdown.Item>
+              <NavDropdown.Item className="nav-link scrollto" href="#menu">
                 Menu
-              </a>
-            </li>
-            <li>
-              <a className="nav-link scrollto" href="#specials">
+              </NavDropdown.Item>
+              <NavDropdown.Item className="nav-link scrollto" href="#specials">
                 Especiales
-              </a>
-            </li>
-            <li>
-              <a className="nav-link scrollto" href="#chefs">
+              </NavDropdown.Item>
+              <NavDropdown.Item className="nav-link scrollto" href="#chefs">
                 Chefs
-              </a>
-            </li>
-            <li>
-              <a className="nav-link scrollto" href="#gallery">
+              </NavDropdown.Item>
+              <NavDropdown.Item className="nav-link scrollto" href="#gallery">
                 Galería de imágenes
-              </a>
-            </li>
-            <li>
-              <a className="nav-link scrollto" href="#contact">
+              </NavDropdown.Item>
+              <NavDropdown.Item className="nav-link scrollto" href="#contact">
                 Contacto
-              </a>
-            </li>
-          </ul>
-          <i className="bx bx-list-ul bx-burst bx-rotate-90 mobile-nav-toggle"></i>
+              </NavDropdown.Item>
+            </Nav>
+          </Navbar.Collapse>
         </Container>
-        <a
+        <Link
           href="#book-a-table"
           className="book-a-table-btn scrollto d-none d-lg-flex"
         >
           Reservas
-        </a>
-      </div>
+        </Link>
+      </Navbar>
     </header>
   );
 };

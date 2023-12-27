@@ -10,7 +10,6 @@ const ContactSection = () => {
       <div className="container" data-aos="fade-up">
         <div className="section-title">
           <h2>Contacto</h2>
-          <p>Contáctenos y aclararemos todas tus dudas</p>
         </div>
       </div>
 
@@ -29,30 +28,30 @@ const ContactSection = () => {
             <div className="info">
               <div className="address">
                 <i className="bx bxs-map"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h4>Dirección</h4>
+                <p>Alonso de Cordova 4225, Vitacura, Stg. de Chile</p>
               </div>
 
               <div className="open-hours">
                 <i className="bx bxs-time-five"></i>
-                <h4>Open Hours:</h4>
+                <h4>Horarios</h4>
                 <p>
-                  Monday-Saturday:
+                  Martes a Domingo:
                   <br />
-                  11:00 AM - 2300 PM
+                  1:00 PM - 11:00 PM
                 </p>
               </div>
 
               <div className="email">
                 <i className="bx bx-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
+                <h4>Correo:</h4>
+                <p>contacto@capogrossi.cl</p>
               </div>
 
               <div className="phone">
                 <i className="bx bxs-phone-call"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <h4>Telf:</h4>
+                <p>+569 920323569</p>
               </div>
             </div>
           </div>
@@ -71,7 +70,7 @@ const ContactSection = () => {
                     name="name"
                     className="form-control"
                     id="name"
-                    placeholder="Your Name"
+                    placeholder="Nombre"
                     required
                   />
                 </div>
@@ -81,7 +80,7 @@ const ContactSection = () => {
                     className="form-control"
                     name="email"
                     id="email"
-                    placeholder="Your Email"
+                    placeholder="Correo"
                     required
                   />
                 </div>
@@ -92,7 +91,7 @@ const ContactSection = () => {
                   className="form-control"
                   name="subject"
                   id="subject"
-                  placeholder="Subject"
+                  placeholder="Titulo"
                   required
                 />
               </div>
@@ -101,19 +100,19 @@ const ContactSection = () => {
                   className="form-control"
                   name="message"
                   rows="8"
-                  placeholder="Message"
+                  placeholder="Mensaje"
                   required
                 ></textarea>
               </div>
               <div className="my-3">
-                <div className="loading">Loading</div>
+                <div className="loading">Cargando</div>
                 <div className="error-message"></div>
                 <div className="sent-message">
-                  Your message has been sent. Thank you!
+                  Tu mensaje fue enviado. Gracias!
                 </div>
               </div>
               <div className="text-center">
-                <button type="submit">Send Message</button>
+                <button type="submit">Enviar Mensaje</button>
               </div>
             </form>
           </div>

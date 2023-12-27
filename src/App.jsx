@@ -6,16 +6,17 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import TopBar from "./components/TopBar";
 import AboutSection from "./components/AboutSection";
-import WhyUsSection from "./components/WhyUsSection";
+import GalleryAboutUsSection from "./components/GalleryAboutUsSection";
 import MenuSection from "./components/MenuSection";
 import SpecialsSection from "./components/SpecialsSection";
 import BookATableSection from "./components/BookATableSection";
-import TestimonialsSection from "./components/TestimonialsSection";
 import GallerySection from "./components/GallerySection";
 import ChefsSection from "./components/ChefsSection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
 import NotFound from "./utils/NotFound";
+import BackToTopButton from "./utils/BackToTopButton";
+import WhatsAppButton from "./utils/WhatsAppButton"
 
 function App() {
   const [sticky, setSticky] = useState(false);
@@ -42,11 +43,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutSection />} />
-          <Route path="/whyUs" element={<WhyUsSection />} />
+          <Route path="/whyUs" element={<GalleryAboutUsSection />} />
           <Route path="/menu" element={<MenuSection />} />
           <Route path="/specials" element={<SpecialsSection />} />
           <Route path="/bookATable" element={<BookATableSection />} />
-          <Route path="/testimonials" element={<TestimonialsSection />} />
           <Route path="/gallery" element={<GallerySection />} />
           <Route path="/chefs" element={<ChefsSection />} />
           <Route path="/contact" element={<ContactSection />} />
@@ -55,8 +55,8 @@ function App() {
       </main>
 
       {/* <div id="preloader"></div> */}
-      {/* <BackToTopButton />
-      <WhatsAppButton /> */}
+      <BackToTopButton />
+      <WhatsAppButton />
       <Footer />
     </div>
   );

@@ -13,7 +13,7 @@ const MenuSection = () => {
           <p>Cucina & Cocktails</p>
         </div>
       <a
-        className="book-a-table-btn scrollto d-none d-lg-flex"
+        className="book-a-table-btn scrollto d-lg-flex"
         href="https://gour.media/capogrossi/?qr=1"
         target="_blank"
       >

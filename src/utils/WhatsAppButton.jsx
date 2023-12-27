@@ -1,11 +1,14 @@
 import React from "react";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
+import "animate.css";
 
 const WhatsAppButton = () => {
   const renderTooltip = (props) => (
     <Tooltip id="button-tooltip" {...props}>
-      Hola. En que te podemos ayudar?
+      <b>Hola!</b>
+      <br />
+      quieres reservar una mesa?
     </Tooltip>
   );
 
@@ -18,8 +21,8 @@ const WhatsAppButton = () => {
       >
         <a
           rel=""
-          href="https://api.whatsapp.com/send?phone=56920390272&text=Hola, bienvenido a Huellitas. En que podemos ayudarte...😀"
-          className="btn-wsp"
+          href="https://api.whatsapp.com/send?phone=56920390272&text=Hola, Hola, bienvenido a Capogrossi deseas reservar? 😀"
+          className="btn-wsp animate__animated animate__heartBeat animate__infinite animate__slower"
           target="_blank"
         >
           <img

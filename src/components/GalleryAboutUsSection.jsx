@@ -4,7 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
 
-const WhyUsSection = () => {
+const GalleryAboutUsSection = () => {
   return (
     <section id="why-us" className="why-us">
       <div className="container m-0" data-aos="fade-up">
@@ -47,4 +47,4 @@ const WhyUsSection = () => {
   );
 };
 
-export default WhyUsSection;
+export default GalleryAboutUsSection;
