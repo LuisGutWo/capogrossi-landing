@@ -123,7 +123,7 @@ h6 {
   z-index: 100;
 
   & .wsp-image {
-    width: 90%;
+    width: 80%;
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.749));
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -136,10 +136,15 @@ h6 {
     }
   }
 }
-
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
+@media (width <= 768px) {
+  .btn-wsp {
+    top: 80%;
+    left: 80%;
+    & .wsp-image {
+      width: 6em;
+    }
+  }
+} /*-------------------------------------------------------------- # Disable aos animation delay on mobile devices --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
@@ -522,6 +527,9 @@ h6 {
   #hero .container {
     padding-top: 98px;
   }
+  .hero-img {
+    width: 18em;
+  }
 }
 
 #hero h1 {
@@ -751,60 +759,6 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 15px 0;
-  background: #1d1b16;
-  margin-top: 110px;
-}
-
-@media (max-width: 992px) {
-  .breadcrumbs {
-    margin-top: 98px;
-  }
-}
-
-.breadcrumbs h2 {
-  font-size: 26px;
-  font-weight: 300;
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 14px;
-}
-
-.breadcrumbs ol li + li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #37332a;
-  content: "/";
-}
-
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-
-  .breadcrumbs ol {
-    display: block;
-  }
-
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
-}
-
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
 .about {
   background-color: #fbfbfb;
   background-size: cover;
@@ -814,7 +768,7 @@ section {
 
 .about:before {
   content: "";
-  background: rgba(0, 0, 0, 0.071);
+  background: rgba(125, 125, 125, 0.088);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -822,20 +776,20 @@ section {
   right: 0;
 }
 .about .container {
-  width: 54%;
+  width: 60%;
 }
 
 .about .content h3 {
   color: #0c0b09;
   font-weight: 900;
-  font-size: 2em;
+  font-size: 2.1em;
   line-height: 1.2;
   margin-bottom: 1rem;
 }
 
 .about .content p {
   color: #0c0b09ca;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 400;
 }
 
@@ -926,25 +880,22 @@ section {
 # Specials
 --------------------------------------------------------------*/
 #specials {
-  overflow: hidden;
   background-image: url(public/img/fondo_ingredientes-1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  position: relative;
 }
-#specials::before{
-  content:"";
+#specials::before {
+  content: "";
+  background: rgba(6, 6, 6, 0.784);
   position: absolute;
+  bottom: 0;
   top: 0;
   left: 0;
   right: 0;
-  opacity: 0.9;
-  /*background-color: #000;*/
-  background-color: rgba(0, 0, 0, 0.804);
 }
-
-
 
 .specials .nav-tabs {
   border: 0;
@@ -981,7 +932,7 @@ section {
 }
 
 .specials .details h3 {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 600;
   margin-bottom: 20px;
   color: #fff;

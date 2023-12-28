@@ -22,7 +22,7 @@ const WhatsAppButton = () => {
         <a
           rel=""
           href="https://api.whatsapp.com/send?phone=56920390272&text=Hola, Hola, bienvenido a Capogrossi deseas reservar? 😀"
-          className="btn-wsp animate__animated animate__heartBeat animate__infinite animate__slower"
+          className="btn-wsp animate__animated animate__tada animate__infinite animate__slower animate__delay-3s"
           target="_blank"
         >
           <img

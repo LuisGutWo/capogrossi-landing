@@ -21,7 +21,7 @@ const ChefsSection = () => {
           <div className="col-lg-4 col-md-6">
             <div className="member" data-aos="zoom-in" data-aos-delay="100">
               <img
-                src={ImgChef1}
+                src={ImgChef2}
                 className="img-fluid"
                 alt=""
               />
@@ -50,7 +50,7 @@ const ChefsSection = () => {
           <div className="col-lg-4 col-md-6">
             <div className="member" data-aos="zoom-in" data-aos-delay="200">
               <img
-                src={ImgChef2}
+                src={ImgChef1}
                 className="img-fluid"
                 alt=""
               />

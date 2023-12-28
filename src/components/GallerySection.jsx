@@ -1,4 +1,12 @@
 import React from "react";
+import GalleryImg1 from "../../public/img/gallery/gallery-1.jpg";
+import GalleryImg2 from "../../public/img/gallery/gallery-2.jpg";
+import GalleryImg3 from "../../public/img/gallery/gallery-3.jpg";
+import GalleryImg4 from "../../public/img/gallery/gallery-4.jpg";
+import GalleryImg5 from "../../public/img/gallery/gallery-5.jpg";
+import GalleryImg6 from "../../public/img/gallery/gallery-6.jpg";
+import GalleryImg7 from "../../public/img/gallery/gallery-7.jpg";
+import GalleryImg8 from "../../public/img/gallery/gallery-8.jpg";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -9,8 +17,8 @@ const GallerySection = () => {
     <section id="gallery" className="gallery">
       <div className="container" data-aos="fade-up">
         <div className="section-title">
-          <h2>Galeria de imagenes</h2>
-          <p>Algunas fotos de nosotros</p>
+          <h2>Galería de imágenes</h2>
+          <p>Un poco mas de nosotros</p>
         </div>
       </div>
 
@@ -19,12 +27,12 @@ const GallerySection = () => {
           <div className="col-lg-3 col-md-4">
             <div className="gallery-item">
               <a
-                href="src/assets/img/gallery/gallery-1.jpg"
+                href={GalleryImg1}
                 className="gallery-lightbox"
                 data-gall="gallery-item"
               >
                 <img
-                  src="src/assets/img/gallery/gallery-1.jpg"
+                  src={GalleryImg1}
                   alt=""
                   className="img-fluid"
                 />
@@ -35,12 +43,12 @@ const GallerySection = () => {
           <div className="col-lg-3 col-md-4">
             <div className="gallery-item">
               <a
-                href="src/assets/img/gallery/gallery-2.jpg"
+                href={GalleryImg2}
                 className="gallery-lightbox"
                 data-gall="gallery-item"
               >
                 <img
-                  src="src/assets/img/gallery/gallery-2.jpg"
+                  src={GalleryImg2}
                   alt=""
                   className="img-fluid"
                 />
@@ -51,12 +59,12 @@ const GallerySection = () => {
           <div className="col-lg-3 col-md-4">
             <div className="gallery-item">
               <a
-                href="src/assets/img/gallery/gallery-3.jpg"
+                href={GalleryImg3}
                 className="gallery-lightbox"
                 data-gall="gallery-item"
               >
                 <img
-                  src="src/assets/img/gallery/gallery-3.jpg"
+                  src={GalleryImg3}
                   alt=""
                   className="img-fluid"
                 />
@@ -67,12 +75,12 @@ const GallerySection = () => {
           <div className="col-lg-3 col-md-4">
             <div className="gallery-item">
               <a
-                href="src/assets/img/gallery/gallery-4.jpg"
+                href={GalleryImg4}
                 className="gallery-lightbox"
                 data-gall="gallery-item"
               >
                 <img
-                  src="src/assets/img/gallery/gallery-4.jpg"
+                  src={GalleryImg4}
                   alt=""
                   className="img-fluid"
                 />
@@ -83,12 +91,12 @@ const GallerySection = () => {
           <div className="col-lg-3 col-md-4">
             <div className="gallery-item">
               <a
-                href="src/assets/img/gallery/gallery-5.jpg"
+                href={GalleryImg5}
                 className="gallery-lightbox"
                 data-gall="gallery-item"
               >
                 <img
-                  src="src/assets/img/gallery/gallery-5.jpg"
+                  src={GalleryImg5}
                   alt=""
                   className="img-fluid"
                 />
@@ -99,12 +107,12 @@ const GallerySection = () => {
           <div className="col-lg-3 col-md-4">
             <div className="gallery-item">
               <a
-                href="src/assets/img/gallery/gallery-6.jpg"
+                href={GalleryImg6}
                 className="gallery-lightbox"
                 data-gall="gallery-item"
               >
                 <img
-                  src="src/assets/img/gallery/gallery-6.jpg"
+                  src={GalleryImg6}
                   alt=""
                   className="img-fluid"
                 />
@@ -115,12 +123,12 @@ const GallerySection = () => {
           <div className="col-lg-3 col-md-4">
             <div className="gallery-item">
               <a
-                href="src/assets/img/gallery/gallery-7.jpg"
+                href={GalleryImg7}
                 className="gallery-lightbox"
                 data-gall="gallery-item"
               >
                 <img
-                  src="src/assets/img/gallery/gallery-7.jpg"
+                  src={GalleryImg7}
                   alt=""
                   className="img-fluid"
                 />
@@ -131,12 +139,12 @@ const GallerySection = () => {
           <div className="col-lg-3 col-md-4">
             <div className="gallery-item">
               <a
-                href="src/assets/img/gallery/gallery-8.jpg"
+                href={GalleryImg8}
                 className="gallery-lightbox"
                 data-gall="gallery-item"
               >
                 <img
-                  src="src/assets/img/gallery/gallery-8.jpg"
+                  src={GalleryImg8}
                   alt=""
                   className="img-fluid"
                 />
