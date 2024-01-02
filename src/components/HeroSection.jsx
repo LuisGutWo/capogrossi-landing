@@ -1,11 +1,13 @@
 import React from "react";
-import ImgLogo1 from "../../public/img/capo-blanco-1024x500.png"
+import ImgLogo1 from "../assets/img/capo-blanco-1024x500.png"
+import { useTranslation } from "react-i18next";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
 
 const HeroSection = () => {
+  const [t] = useTranslation("global");
   return (
     <section id="hero" className="d-flex align-items-center">
       <div
@@ -23,13 +25,13 @@ const HeroSection = () => {
 
             <div className="btns">
               <a href="#menu" className="btn-menu animated fadeInUp scrollto">
-                Nuestro Menu
+                {t("hero.button_1")}
               </a>
               <a
                 href="#book-a-table"
                 className="btn-book animated fadeInUp scrollto"
               >
-                Reservas
+                {t("hero.button_2")}
               </a>
             </div>
           </div>

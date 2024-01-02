@@ -1,39 +1,22 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
+import { useTranslation } from "react-i18next";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
 
 const AboutSection = () => {
+  const [t, i18n] = useTranslation("global");
+
   return (
     <section id="about" className="about">
       <div className="container" data-aos="fade-up">
         <div className="row">
           <div className="pt-4 pt-lg-0 order-2 order-lg-1 content text-center">
-            <h3>La nostra historia</h3>
-            <p className="fst-italic">
-              Capogrossi nació en Roma, Italia. En 1922, una familia fundo un
-              pintoresco restaurante en el corazón de Fluminicino. Con casi un
-              siglo de presencia, Capogrossi mantiene intacta su esencia, sus
-              sabores tradicionales y las clásicas recetas de la abuela
-              Filomena, icono de la cocina romana.
-            </p>
+            <h3>{t("about.title")} </h3>
+            <p>{t("about.text_1")}</p>
 
-            <p>
-              A 100 años de su inauguración, su encanto viaja miles de
-              kilómetros para abrir sus puertas en Santiago de Chile, de la mano
-              de los prestigiosos chefs Andrea Bernardi y Fernanda Fuentes,
-              ambos galardonados actualmente con estrella Michelin en su
-              restaurante Nub (Canarias).
-            </p>
-            <p>
-              En este nuevo restaurante, nuestros chefs vienen a fusionar la
-              tradición de la abuela Filomena, sus recuerdos y raíces
-              culturales, con su modernidad e innovación gastronómica,
-              manteniendo siempre los sabores inquebrantables de la dieta
-              mediterránea italiana.
-            </p>
+            <p>{t("about.text_2")}</p>
+            <p>{t("about.text_3")}</p>
           </div>
         </div>
       </div>

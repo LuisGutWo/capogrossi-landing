@@ -16,7 +16,7 @@ import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
 import NotFound from "./utils/NotFound";
 import BackToTopButton from "./utils/BackToTopButton";
-import WhatsAppButton from "./utils/WhatsAppButton"
+import WhatsAppButton from "./utils/WhatsAppButton";
 
 function App() {
   const [sticky, setSticky] = useState(false);

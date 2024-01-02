@@ -1,6 +1,6 @@
 import React from "react";
-import ImgChef1 from "../../public/img/45A2533-1_bn-683x1024.jpg"
-import ImgChef2 from "../../public/img/45A2615-1_bn-683x1024.jpg"
+import ImgChef1 from "../assets/img/45A2533-1_bn-683x1024.jpg"
+import ImgChef2 from "../assets/img/45A2615-1_bn-683x1024.jpg"
 
 import AOS from "aos";
 import "aos/dist/aos.css";

@@ -1,12 +1,12 @@
 import React from "react";
-import GalleryImg1 from "../../public/img/gallery/gallery-1.jpg";
-import GalleryImg2 from "../../public/img/gallery/gallery-2.jpg";
-import GalleryImg3 from "../../public/img/gallery/gallery-3.jpg";
-import GalleryImg4 from "../../public/img/gallery/gallery-4.jpg";
-import GalleryImg5 from "../../public/img/gallery/gallery-5.jpg";
-import GalleryImg6 from "../../public/img/gallery/gallery-6.jpg";
-import GalleryImg7 from "../../public/img/gallery/gallery-7.jpg";
-import GalleryImg8 from "../../public/img/gallery/gallery-8.jpg";
+import GalleryImg1 from "../assets/img/gallery/gallery-1.jpg";
+import GalleryImg2 from "../assets/img/gallery/gallery-2.jpg";
+import GalleryImg3 from "../assets/img/gallery/gallery-3.jpg";
+import GalleryImg4 from "../assets/img/gallery/gallery-4.jpg";
+import GalleryImg5 from "../assets/img/gallery/gallery-5.jpg";
+import GalleryImg6 from "../assets/img/gallery/gallery-6.jpg";
+import GalleryImg7 from "../assets/img/gallery/gallery-7.jpg";
+import GalleryImg8 from "../assets/img/gallery/gallery-8.jpg";
 
 import AOS from "aos";
 import "aos/dist/aos.css";

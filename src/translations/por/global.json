@@ -1,0 +1,27 @@
+{
+    "header": {
+        "navbar": {
+            "home": "Home",
+            "about": "Nos",
+            "menu": "Menu",
+            "chefs": "Chefs",
+            "specials": "Especial",
+            "gallery": "Imagens",
+            "contact": "Contato",
+            "reserves": "Reservas"
+        }
+    },
+    "hero": {
+        "button_1": "Nosso Cardapio",
+        "button_2": "Fazer Reserva"
+    },
+    "topbar": {
+        "schedule": "Seg-Sab: 12:30 - 23:00"
+    },
+    "about": {
+        "title": "Nossa História",
+        "text_1": "Capogrossi nasceu em Roma, Itália. Em 1922, uma familia fundou um restaurante pitoresco no coração de Fluminicino. Com quase um século de presença, Capogrossi mantém intacta sua essência, seus sabores tradicionais e as receitas clássicas da avó Filomena, ícone da culinária romana.",
+        "text_2": "100 anos após sua inauguração, seu charme percorre milhares de quilômetros para abrir suas portas em Santiago do Chile, com a ajuda dos prestigiados chefs Andrea Bernardi e Fernanda Fuentes, ambos atualmente premiados com uma estrela Michelin em seu restaurante Nub (Ilhas Canárias).",
+        "text_3": "Neste novo restaurante, os nossos chefs vêm fundir o A tradição, as memórias e raízes da vovó Filomena. Com sua modernidade e inovação gastronômica, Sempre mantendo os sabores inabaláveis da dieta Mediterrâneo italiano."
+    }
+}
