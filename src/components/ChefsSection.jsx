@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import ImgChef1 from "../assets/img/45A2533-1_bn-683x1024.jpg"
 import ImgChef2 from "../assets/img/45A2615-1_bn-683x1024.jpg"
 
@@ -7,6 +8,8 @@ import "aos/dist/aos.css";
 AOS.init();
 
 const ChefsSection = () => {
+  const [t] = useTranslation("global");
+
   return (
     <section id="chefs" className="chefs">
       <div className="container" data-aos="fade-up">
@@ -15,7 +18,7 @@ const ChefsSection = () => {
             <div className="section-title">
               <p>Chefs. Andrea Bernardi & Fernanda Fuentes</p>
               <br />
-              <h2>Galardonados con Estrellas Michelin</h2>
+              <h2>{t("chefs.text")} </h2>
             </div>
           </div>
           <div className="col-lg-4 col-md-6">

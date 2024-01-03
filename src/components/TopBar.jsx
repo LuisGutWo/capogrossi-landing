@@ -1,7 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-
 const TopBar = () => {
   const [t, i18n] = useTranslation("global");
 
@@ -16,7 +15,7 @@ const TopBar = () => {
             <span>{t("topbar.schedule")} </span>
           </i>
         </div>
-        <label htmlFor="select" className="language-switcher">
+        <div htmlFor="select" className="language-switcher">
           <select
             name="select"
             id="select"
@@ -28,7 +27,7 @@ const TopBar = () => {
             <option value="en">English</option>
             <option value="por">Portugués</option>
           </select>
-        </label>
+        </div>
       </div>
     </div>
   );

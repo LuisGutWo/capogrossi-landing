@@ -23,5 +23,16 @@
         "text_1": "Capogrossi was born in Rome, Italy. In 1922, a family founded a quaint restaurant in the heart of Fluminicino. With almost a for a century of presence, Capogrossi keeps intact his essence, its tradicional flavors and grandmas classic recipes Philomena, icon of Roman cuisine.",
         "text_2": "100 years after its inauguration, its charm travels thousands of times. Kilometers to open their doors in Santiago de Chile hand in hand the prestigious chefs Andrea Bernardi y Fernanda Fuentes, both currently awarded a Michelin star in their Nub restaurant (Canary islands).",
         "text_3": "In this restaurant, our chefs come to fuse the Grandma Filomena tradition, her memories and root with its modernity and gastronomic innovation, always maintaining the unwavering flavors of the diet Italian Mediterranean"
+    },
+    "gallery": {
+        "title_1": "Italian Cuisine",
+        "title_2": "Signature cocktails",
+        "title_3": "Book your table"
+    },
+    "menu": {
+        "button": "See the menu"
+    },
+    "chefs": {
+        "text": "Michelin-starred laureates"
     }
 }

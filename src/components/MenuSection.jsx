@@ -1,10 +1,13 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
 
 const MenuSection = () => {
+  const [t] = useTranslation("global");
+
   return (
     <section id="menu" className="menu section-bg">
       <div className="container" data-aos="fade-up">
@@ -17,7 +20,7 @@ const MenuSection = () => {
         href="https://gour.media/capogrossi/?qr=1"
         target="_blank"
       >
-        Ver Menu
+        {t("menu.button")}
       </a>
       </div>
     </section>

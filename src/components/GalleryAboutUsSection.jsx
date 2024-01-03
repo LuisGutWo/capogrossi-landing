@@ -1,10 +1,13 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
 
 const GalleryAboutUsSection = () => {
+  const [t] = useTranslation("global");
+ 
   return (
     <section id="why-us" className="why-us">
       <div className="container m-0" data-aos="fade-up">
@@ -16,7 +19,7 @@ const GalleryAboutUsSection = () => {
                 src="https://capogrossi.cl/wp-content/uploads/2021/12/Pasta-38.jpg"
                 alt=""
               />
-              <h3>Cucina Italiana</h3>
+              <h3>{t("gallery.title_1")} </h3>
             </div>
           </div>
 
@@ -27,7 +30,7 @@ const GalleryAboutUsSection = () => {
                 src="https://capogrossi.cl/wp-content/uploads/2021/12/Negroni.jpeg"
                 alt=""
               />
-              <h3>Coctelería <br /> de autor</h3>
+              <h3>{t("gallery.title_2")}</h3>
             </div>
           </div>
 
@@ -38,7 +41,7 @@ const GalleryAboutUsSection = () => {
                 src="https://capogrossi.cl/wp-content/uploads/2021/12/better-to-reserve-a-table.jpeg"
                 alt=""
               />
-              <h3>Reserva tu mesa</h3>
+              <h3>{t("gallery.title_3")}</h3>
             </div>
           </div>
         </div>
