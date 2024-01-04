@@ -9,7 +9,11 @@ AOS.init();
 const HeroSection = () => {
   const [t] = useTranslation("global");
   return (
-    <section id="hero" className="d-flex align-items-center">
+    <section id="hero" className="slider-container d-flex align-items-center">
+      
+        <div className="slider position"></div>
+      
+
       <div
         className="container position-relative text-center text-lg-start"
         data-aos="zoom-in"

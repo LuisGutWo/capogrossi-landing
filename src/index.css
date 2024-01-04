@@ -176,29 +176,6 @@ h6 {
   color: #fff;
 }
 
-#topbar .languages ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  color: #cda45e;
-}
-
-#topbar .languages ul a {
-  color: white;
-}
-
-#topbar .languages ul li + li {
-  padding-left: 10px;
-}
-
-#topbar .languages ul li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: rgba(255, 255, 255, 0.5);
-  content: "/";
-}
 .language-switcher {
   display: flex;
   align-items: center;
@@ -207,15 +184,25 @@ h6 {
   min-width: 150px;
 }
 .language-switcher-input {
-  width: 6em;
-  height: 2em;
-  border-radius: 15%;
+  width: 5.5em;
+  height: 1.6em;
+  border-radius: 5%;
   background-color: #cda45e;
   box-shadow: inset 0 0 0 1px transparent;
   transition: all 0.2s ease-out;
 }
 .language-switcher-input:focus {
   outline: 2px solid transparent !important;
+}
+
+@media (width <= 375px){
+  #topbar .contact-info i span {
+    font-size: 0.42rem;
+  }
+  .language-switcher {
+    left: 18%;
+  }
+
 }
 
 /*--------------------------------------------------------------
@@ -282,7 +269,7 @@ h6 {
 
 .book-a-table-btn:hover {
   background: #cda45e;
-  color: #fff;
+  color: #fafafa !important;
 }
 
 @media (max-width: 992px) {
@@ -515,17 +502,45 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 83vh;
-  background: url("https://capogrossi.cl/wp-content/uploads/2022/11/21012022-008A8540.jpg")
-    top center;
-  background-size: cover;
+  height: 85vh;
   position: relative;
   padding: 0;
 }
+.position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-#hero:before {
+.slider {
+  background-image: url("https://capogrossi.cl/wp-content/uploads/2022/11/21012022-008A8540.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  animation: animate 30s infinite;
+  transition: all ease-out 2000ms;
+}
+
+@keyframes animate {
+  100% {
+    background-image: url("https://capogrossi.cl/wp-content/uploads/2022/11/21012022-008A8540.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  50% {
+    background-image: url("https://capogrossi.cl/wp-content/uploads/2021/12/slide0.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+
+.slider:before {
   content: "";
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.407);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -828,16 +843,21 @@ section {
 # Gallery About Us
 --------------------------------------------------------------*/
 .why-us {
-  padding: 1rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  padding: 0;
+  
 }
+.why-us .container {
+  padding: 0;
+  width: 100vw;
+}
+.why-us .container .row {
+  width: 100vw;
+}
+
 
 .why-us .box {
   height: 100%;
+  width: 100%;
   padding: 0;
   transition: all ease-in-out 0.3s;
   background: #1a1814;
@@ -907,6 +927,8 @@ section {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
+  height: 100%;
+  padding-top: 4rem;
 }
 #specials::before {
   content: "";
