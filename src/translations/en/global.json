@@ -34,5 +34,23 @@
     },
     "chefs": {
         "text": "Michelin-starred laureates"
+    },
+    "specials": {
+        "title": "Italian Cuisine",
+        "paragraph": "This week's Chef's pick...",
+        "cards": {
+            "item_1": {
+                "title": "Chitarra al Pesto di Sorrento",
+                "paragraph": "Fresh pesto based on white almonds and fresh season lemon. Served in dry Chitarra pasta and finished with toasted almonds."
+            },
+            "item_2": {
+                "title": "Spaghetti Pomodoro dei tre re",
+                "paragraph": "Mancini dry long pasta, flavoured with garlic, daterino tomatoes sautéed in EVO oil and in a sauce of three Italian tomatoes."
+            },
+            "item_3": {
+                "title": "Burrata with oleo al carbone",
+                "paragraph": "Fresh cow's milk cheese, candied porcini mushrooms, warm guanciale slices, semi-dried tomatoes finished with charcoal-flavoured oil and smoked with cherry wood."
+            }
+        }
     }
 }

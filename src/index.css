@@ -195,14 +195,13 @@ h6 {
   outline: 2px solid transparent !important;
 }
 
-@media (width <= 375px){
+@media (width <= 766px) {
   #topbar .contact-info i span {
     font-size: 0.42rem;
   }
   .language-switcher {
     left: 18%;
   }
-
 }
 
 /*--------------------------------------------------------------
@@ -833,10 +832,24 @@ section {
   margin-bottom: 0;
 }
 
-@media (min-width: 1024px) {
+@media (width <= 1024px) {
   .about {
     background-attachment: fixed;
   }
+}
+@media (width <= 754px) {
+  .about .content h3 {
+    font-size: 1.8em;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  
+  .about .content p {
+    color: #0c0b09ca;
+    font-size: 0.8em;
+    font-weight: 400;
+  }
+
 }
 
 /*--------------------------------------------------------------
@@ -844,20 +857,19 @@ section {
 --------------------------------------------------------------*/
 .why-us {
   padding: 0;
-  
+  text-align: center;
+  padding: 1em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .why-us .container {
   padding: 0;
-  width: 100vw;
+  width: 100%;
 }
-.why-us .container .row {
-  width: 100vw;
-}
-
 
 .why-us .box {
   height: 100%;
-  width: 100%;
   padding: 0;
   transition: all ease-in-out 0.3s;
   background: #1a1814;
@@ -987,6 +999,20 @@ section {
 
 .specials .details p:last-child {
   margin-bottom: 0;
+}
+.specials .tap-pane .img-container {
+  display: block;
+  overflow: hidden;
+}
+.specials .tab-pane .img-container img {
+  transform: scale3d(1, 1, 1);
+  transition: transform 1s ease-in-out;
+  width: 100%;
+  border-radius: 10px;
+}
+.specials .tab-pane .img-container img:hover {
+  transform: scale3d(1.1, 1.1, 1);
+  transition: transform 1s ease-in-out;
 }
 
 @media (max-width: 992px) {

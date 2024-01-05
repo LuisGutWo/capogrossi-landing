@@ -34,5 +34,23 @@
     },
     "chefs": {
         "text": "Galardonados con estrellas Michelin"
+    },
+    "specials": {
+        "title": "Cucina Italiana",
+        "paragraph": "La selección del Chef de esta semana...",
+        "cards": {
+            "item_1": {
+                "title": "Chitarra al Pesto di Sorrento",
+                "paragraph": "Fresco pesto a base de almendras blancas y limón sutil. Servidos en pasta seca Chitarra y terminado con almendras tostadas."
+            },
+            "item_2": {
+                "title": "Spaghetti Pomodoro dei tre re",
+                "paragraph": "Pasta larga seca Mancini, aromatizado con ajos, tomates daterinos salteados en aceite EVO y en salsa de tres tomates Italianos."
+            },
+            "item_3": {
+                "title": "Burrata con oleo al carbone",
+                "paragraph": "Queso fresco de leche de vaca, hongos boletus confitados, laminas de guanciale templado, tomates semi secos y terminados con aceite aromatizado al carbon y ahumado con madera de cerezo."
+            }
+        }
     }
 }
