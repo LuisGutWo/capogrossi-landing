@@ -12,6 +12,8 @@
         }
     },
     "hero": {
+        "title": "Venha viver uma experiência",
+        "subtitle": "100% Made in Italy",
         "button_1": "Nosso Cardapio",
         "button_2": "Fazer Reserva"
     },
@@ -27,7 +29,13 @@
     "gallery": {
         "title_1": "Cozinha italiana",
         "title_2": "Coquetéis exclusivos",
-        "title_3": "Reserve sua mesa"
+        "title_3": "Reserve sua mesa",
+        "title_4": "Tradição Italiana",
+        "title_5": "Inovação na cozinha",
+        "title_6": "Coquetéis exclusivos",
+        "description_1": "RECEITAS 100% MADE IN ITALY, AUTÊNTICAS DE NONNA FILOMENA.",
+        "description_2": "LIDERADO PELA CHEF FERNANDA FUENTES (A PRIMEIRA CHILENA A RECEBER UMA ESTRELA MICHELIN) E ANDREA BERNARDI.",
+        "description_3": "TEREMOS UM DOS MELHORES BARTENDERS DO CHILE."
     },
     "menu": {
         "button": "Veja o cardápio"
@@ -52,5 +60,15 @@
                 "paragraph": "Queijo fresco de leite de vaca, cogumelos porcini cristalizados, fatias de guanciale quentes, tomates semi-secos terminados com óleo aromatizado a carvão e defumados com madeira de cereja."
             }
         }
+    },
+    "contact": {
+        "title": "Localização",
+        "title_2": "Alonso de Cordova 4225 Vitacura, Santiago de Chile"
+    },
+    "work": {
+        "title": "Quer fazer parte da nossa família?",
+        "title_2": "Deixe-nos os seus dados.",
+        "description": "Envie-nos o seu CV para",
+        "description_2": "rrhh@capogrossi.cl"
     }
 }

@@ -19,13 +19,14 @@ const TopBar = () => {
           <select
             name="select"
             id="select"
+            variant="light"
             className="language-switcher-input"
             value={t.language}
             onChange={(e) => i18n.changeLanguage(e.target.value)}
           >
-            <option value="es">Español</option>
-            <option value="en">English</option>
-            <option value="por">Portugués</option>
+            <option value="es">ES</option>
+            <option value="en">EN</option>
+            <option value="por">POR</option>
           </select>
         </div>
       </div>

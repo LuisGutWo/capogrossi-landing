@@ -4,9 +4,10 @@ import AboutSection from "./AboutSection";
 import MenuSection from "./MenuSection";
 import SpecialsSection from "./SpecialsSection";
 import BookATableSection from "./BookATableSection";
-import GallerySection from "./GallerySection";
 import ChefsSection from "./ChefsSection";
 import ContactSection from "./ContactSection";
+import GallerySection from "./GallerySection";
+import WorkWithUs from "./WorkWithUs";
 
 const Home = () => {
   return (
@@ -16,9 +17,10 @@ const Home = () => {
       <MenuSection />
       <ChefsSection />
       <SpecialsSection />
+      <ContactSection />
       <BookATableSection />
       <GallerySection />
-      <ContactSection />
+      <WorkWithUs />
     </>
   );
 };

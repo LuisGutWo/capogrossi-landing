@@ -26,6 +26,9 @@ const HeroSection = () => {
               alt=""
               className="hero-img"
             />
+            <h3 className="text-white mb-1">{t('hero.title')}</h3>
+            <h1>{t('hero.subtitle')}</h1>
+            
 
             <div className="btns">
               <a href="#menu" className="btn-menu animated fadeInUp scrollto">

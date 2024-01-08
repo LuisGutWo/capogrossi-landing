@@ -12,6 +12,8 @@
         }
     },
     "hero": {
+        "title": "Come and live an experience",
+        "subtitle": "100% Made in Italy",
         "button_1": "Our Menu",
         "button_2": "Make Reserve"
     },
@@ -27,7 +29,13 @@
     "gallery": {
         "title_1": "Italian Cuisine",
         "title_2": "Signature cocktails",
-        "title_3": "Book your table"
+        "title_3": "Book your table",
+        "title_4": "Italian Tradition",
+        "title_5": "Innovation in the kitchen",
+        "title_6": "Signature cocktails",
+        "description_1": "100% MADE IN ITALY RECIPES, AUTHENTIC BY NONNA FILOMENA.",
+        "description_2": "LED BY OUR CHEF FERNANDA FUENTES (THE FIRST CHILEAN TO BE AWARDED A MICHELIN STAR) AND ANDREA BERNARDI.",
+        "description_3": "WE WILL HAVE ONE OF THE BEST BARTENDERS IN CHILE."
     },
     "menu": {
         "button": "See the menu"
@@ -52,5 +60,15 @@
                 "paragraph": "Fresh cow's milk cheese, candied porcini mushrooms, warm guanciale slices, semi-dried tomatoes finished with charcoal-flavoured oil and smoked with cherry wood."
             }
         }
+    },
+    "contact": {
+        "title": "Location.",
+        "title_2": "Alonso de Cordova 4225 Vitacura, Santiago de Chile"
+    },
+    "work": {
+        "title": "¿Do you want to be part of our family?",
+        "title_2": "Leave us your details.",
+        "description": "Send us your resume to",
+        "description_2": "rrhh@capogrossi.cl"
     }
 }

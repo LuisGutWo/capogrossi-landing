@@ -37,22 +37,19 @@ const Header = () => {
                 {t("header.navbar.home")}
               </NavDropdown.Item>
               <NavDropdown.Item className="nav-link scrollto" href="#about">
-              {t("header.navbar.about")}
+                {t("header.navbar.about")}
               </NavDropdown.Item>
               <NavDropdown.Item className="nav-link scrollto" href="#menu">
-              {t("header.navbar.menu")}
+                {t("header.navbar.menu")}
               </NavDropdown.Item>
               <NavDropdown.Item className="nav-link scrollto" href="#specials">
-              {t("header.navbar.specials")}
+                {t("header.navbar.specials")}
               </NavDropdown.Item>
               <NavDropdown.Item className="nav-link scrollto" href="#chefs">
-              {t("header.navbar.chefs")}
-              </NavDropdown.Item>
-              <NavDropdown.Item className="nav-link scrollto" href="#gallery">
-              {t("header.navbar.gallery")}
+                {t("header.navbar.chefs")}
               </NavDropdown.Item>
               <NavDropdown.Item className="nav-link scrollto" href="#contact">
-              {t("header.navbar.contact")}
+                {t("header.navbar.contact")}
               </NavDropdown.Item>
             </Nav>
           </Navbar.Collapse>
