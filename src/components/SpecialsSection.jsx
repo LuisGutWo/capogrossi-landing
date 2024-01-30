@@ -1,4 +1,3 @@
-import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Nav, Tab } from "react-bootstrap";
 import { useTranslation } from "react-i18next";

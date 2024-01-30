@@ -1,4 +1,3 @@
-// import React, { useEffect, useState } from "react";
 import { Container, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";

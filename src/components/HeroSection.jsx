@@ -1,4 +1,3 @@
-import React from "react";
 import ImgLogo1 from "../assets/img/capo-blanco-1024x500.png"
 import { useTranslation } from "react-i18next";
 

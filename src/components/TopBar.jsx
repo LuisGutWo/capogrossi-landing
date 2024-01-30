@@ -1,4 +1,3 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 
 const TopBar = () => {
@@ -19,7 +18,6 @@ const TopBar = () => {
           <select
             name="select"
             id="select"
-            variant="light"
             className="language-switcher-input"
             value={t.language}
             onChange={(e) => i18n.changeLanguage(e.target.value)}

@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
-// import { useUserContext } from "./context/UserContext";
 import Home from "./components/Home";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
@@ -29,7 +28,6 @@ function App() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // const { user } = useUserContext();
 
   return (
     <div id="app">

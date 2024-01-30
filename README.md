@@ -1,11 +1,11 @@
 
 # Capogrossi Landing Page
 
-Landing Corporativo para el Restaurant Capogrossi, Santiago de Chile. Actualmente trabajo es mi trabajo y se me autorizo crear este clon de la empresa con fines de practica.
+Landing Corporativo para el Restaurant Capogrossi, Santiago de Chile. Actualmente es mi trabajo y se me autorizo crear este clon de la empresa con fines de practica.
 
 ## Dependencias
 
-Para este proyecto levante la aplicación en React y bootstrap
+Para este proyecto levante la aplicación en React, Css y bootstrap, la base de datos la cree en Firebase. Las animaciones y transiciones las implemente con AOS y animate css. Para el language switch utilice i18next personalizando archivos json para cada idioma a seleccionar.  
 
 ## Demo
 
@@ -24,6 +24,6 @@ Para este proyecto levante la aplicación en React y bootstrap
 
 ## Tech Stack
 
-**Client:** React, React-Bootstrap, iframe, emailJs, iTranslate
+**Client:** React, React-Bootstrap, iframe, emailJs, iTranslate, i18next, firebase.
 
 **Server:** Node, Express

@@ -1,4 +1,3 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 
 import AOS from "aos";
@@ -19,6 +18,7 @@ const MenuSection = () => {
         className="book-a-table-btn scrollto d-lg-flex"
         href="https://gour.media/capogrossi/?qr=1"
         target="_blank"
+        rel="noreferrer"
       >
         {t("menu.button")}
       </a>

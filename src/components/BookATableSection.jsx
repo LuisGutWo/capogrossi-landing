@@ -1,5 +1,3 @@
-import React from "react";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
@@ -16,6 +14,7 @@ const BookATableSection = () => {
           className="book-a-table-btn scrollto d-lg-flex"
           href="https://capogrossi.cl/reservas/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Reservar
         </a>

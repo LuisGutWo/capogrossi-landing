@@ -104,10 +104,10 @@ h6 {
 
 @media (width <=768px) {
   .btn-arrow-up {
-    height: 4rem;
-    width: 4rem;
+    height: 3.5rem;
+    width: 3.5rem;
     top: 83%;
-    right: 82%;
+    right: 79%;
   }
 }
 
@@ -139,13 +139,13 @@ h6 {
 @media (width <= 768px) {
   .btn-wsp {
     top: 80%;
-    left: 80%;
+    left: 74%;
     & .wsp-image {
-      width: 6em;
+      width: 5.5em;
     }
   }
 } /*-------------------------------------------------------------- # Disable aos animation delay on mobile devices --------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
+@media (width <= 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
@@ -181,10 +181,9 @@ h6 {
   align-items: center;
   gap: 0.4rem;
   position: relative;
-  min-width: 150px;
 }
 .language-switcher-input {
-  width: 40%;
+  width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.764);
   color: #d6d6d6;
@@ -199,7 +198,7 @@ h6 {
     font-size: 0.42rem;
   }
   .language-switcher {
-    left: 18%;
+    left: 10%;
   }
 }
 
@@ -558,15 +557,6 @@ h6 {
   width: 15em;
 }
 
-@media (max-width: 992px) {
-  #hero .container {
-    padding-top: 98px;
-  }
-  .hero-img {
-    width: 18em;
-  }
-}
-
 #hero h1 {
   margin: 0;
   font-size: 48px;
@@ -693,29 +683,33 @@ h6 {
 }
 
 @media (max-width: 992px) {
+  #hero {
+    height: auto;
+  }
+  #hero .container {
+    padding-top: 80px;
+  }
+  .hero-img {
+    width: 12em;
+  }
   #hero .play-btn {
     margin-top: 30px;
   }
 }
 
-@media (max-height: 500px) {
-  #hero {
-    height: auto;
-  }
+@media (max-width: 768px) {
+  
 
   #hero .container {
-    padding-top: 130px;
     padding-bottom: 60px;
   }
-}
 
-@media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 21px;
     line-height: 36px;
   }
 
-  #hero h2 {
+  #hero h3 {
     font-size: 18px;
     line-height: 24px;
   }
@@ -841,8 +835,14 @@ section {
   }
 }
 @media (width <= 754px) {
+  .about {
+    padding: 30px 0;
+  }
+  .about .container {
+    width: 80%;
+  }
   .about .content h3 {
-    font-size: 1.8em;
+    font-size: 1.6em;
     line-height: 1.2;
     margin-bottom: 1rem;
   }
@@ -930,6 +930,18 @@ section {
   justify-content: space-around;
   align-items: center;
 }
+
+@media (width <= 767px){
+  .menu {
+    height: 18rem;
+  }
+
+  .menu .section-title p {
+    font-size: 1.8rem;
+
+  }
+
+}
 /*--------------------------------------------------------------
 # Work With Us Section
 --------------------------------------------------------------*/
@@ -946,6 +958,31 @@ section {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+}
+@media (width <= 768px){
+  .work {
+    height: 100%;
+    padding-bottom: 10px;
+  }
+  
+  .work .container .section-title h2 {
+    font-size: 0.6rem;
+  }
+  .work .container .section-title p {
+    font-size: 1.8rem;
+  }
+  .work .container .section-title .work-text-content {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .work .container .section-title h6 {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .work .container .section-title h4 {
+    font-size: 1.1rem;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1034,10 +1071,26 @@ section {
   transition: transform 1s ease-in-out;
 }
 
-@media (max-width: 992px) {
+@media (width <= 992px) {
   .specials .nav-link {
     border: 0;
     padding: 15px;
+  }
+}
+@media (width <= 768px){
+  #specials {
+    height: 100%;
+    padding-top: 4rem;
+  }
+  .specials .container .section-title p {
+    font-size: 1.5rem;
+  }
+  .specials .row h3 {
+    font-size: 1.3rem;
+    margin-top: 18px;
+  }
+  .specials .row p {
+    font-size: 0.9rem;
   }
 }
 
@@ -1094,6 +1147,12 @@ section {
 .gallery .gallery-item h6 {
   font-size: 0.8rem;
   margin-top: 1.2rem;
+}
+@media (width <= 768px){
+  #gallery {
+    background-size: cover;
+  }
+
 }
 
 /*--------------------------------------------------------------
@@ -1184,6 +1243,20 @@ section {
 .chefs .member:hover .social {
   bottom: 0;
   transition: bottom ease-in-out 0.4s;
+}
+
+@media (width <= 767px){
+  .chefs .container .section-title p {
+    font-size: 1.5rem;
+  }
+  .chefs .container .section-title h2 {
+    font-size: 0.7rem;
+    text-align: start;
+  }
+  .chefs .container .section-title h2::after {
+    display: none;
+  }
+
 }
 
 /*--------------------------------------------------------------
@@ -1349,6 +1422,15 @@ section {
 
   100% {
     transform: rotate(360deg);
+  }
+}
+@media (width <= 768px){
+  .contact .container .section-title p {
+    font-size: 1.2rem;
+  }
+  .contact .container .section-title h4 {
+    font-size: 1rem;
+    margin-top: 15px;
   }
 }
 

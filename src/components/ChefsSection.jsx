@@ -1,4 +1,3 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 import ImgChef1 from "../assets/img/45A2533-1_bn-683x1024.jpg"
 import ImgChef2 from "../assets/img/45A2615-1_bn-683x1024.jpg"

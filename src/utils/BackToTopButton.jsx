@@ -1,8 +1,7 @@
-import React from "react";
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 
-const backToTopButton = () => {
+const BackToTopButton = () => {
   const [backToTopButton, setBackToTopButton] = useState(false);
 
   useEffect(() => {
@@ -42,4 +41,4 @@ const backToTopButton = () => {
   );
 };
 
-export default backToTopButton;
+export default BackToTopButton;

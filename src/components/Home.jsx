@@ -1,4 +1,3 @@
-import React from "react";
 import GalleryAboutUsSection from "./GalleryAboutUsSection";
 import AboutSection from "./AboutSection";
 import MenuSection from "./MenuSection";

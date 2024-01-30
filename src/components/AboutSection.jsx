@@ -1,11 +1,10 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
 
 const AboutSection = () => {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
 
   return (
     <section id="about" className="about">

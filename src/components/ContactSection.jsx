@@ -1,4 +1,3 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 import { FaCarAlt } from "react-icons/fa";
 import AOS from "aos";
