@@ -1,4 +1,4 @@
-import ImgLogo1 from "../assets/img/capo-blanco-1024x500.png"
+import LogoCapoBlanco from "/img/logos/capo-blanco-1024x500.png"
 import { useTranslation } from "react-i18next";
 
 import AOS from "aos";
@@ -21,7 +21,7 @@ const HeroSection = () => {
         <div className="row">
           <div className="col-lg-8">
             <img
-              src={ImgLogo1}
+              src={LogoCapoBlanco}
               alt=""
               className="hero-img"
             />

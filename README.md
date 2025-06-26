@@ -5,7 +5,7 @@ Landing Corporativo para el Restaurant Capogrossi, Santiago de Chile. Actualment
 
 ## Dependencias
 
-Para este proyecto levante la aplicación en React, Css y bootstrap, la base de datos la cree en Firebase. Las animaciones y transiciones las implemente con AOS y animate css. Para el language switch utilice i18next personalizando archivos json para cada idioma a seleccionar.  
+Para este proyecto levante la aplicación en React, Css y bootstrap, la base de datos la cree en Firebase. Las animaciones y transiciones las implemente con AOS y animate css. Para el language switch utilice i18next.  
 
 ## Demo
 

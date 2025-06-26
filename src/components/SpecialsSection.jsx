@@ -2,9 +2,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Nav, Tab } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 
-import SpecialImg1 from "../assets/img/OIP.jpeg";
-import SpecialImg2 from "../assets/img/cocina-bistro-tagliolini.jpg";
-import SpecialImg3 from "../assets/img/Capogrossi-8-ok.jpg";
+import SpecialImg1 from "/img/menu/OIP.jpeg";
+import SpecialImg2 from "/img/menu/cocina-bistro-tagliolini.jpg";
+import SpecialImg3 from "/img/menu/Capogrossi-8-ok.jpg";
 
 import AOS from "aos";
 import "aos/dist/aos.css";

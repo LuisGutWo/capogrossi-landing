@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import ImgChef1 from "../assets/img/45A2533-1_bn-683x1024.jpg"
-import ImgChef2 from "../assets/img/45A2615-1_bn-683x1024.jpg"
+import ChefFerImage from "/img/chefs/chef-ferfuentes.jpg";
+import ChefAndImage from "/img/chefs/chef-andbernardi.jpg";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -22,11 +22,7 @@ const ChefsSection = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="member" data-aos="zoom-in" data-aos-delay="100">
-              <img
-                src={ImgChef2}
-                className="img-fluid"
-                alt=""
-              />
+              <img src={ChefAndImage} className="img-fluid" alt="" />
               <div className="member-info">
                 <div className="member-info-content">
                   <h4>Andrea Bernardi</h4>
@@ -51,11 +47,7 @@ const ChefsSection = () => {
 
           <div className="col-lg-4 col-md-6">
             <div className="member" data-aos="zoom-in" data-aos-delay="200">
-              <img
-                src={ImgChef1}
-                className="img-fluid"
-                alt=""
-              />
+              <img src={ChefFerImage} className="img-fluid" alt="" />
               <div className="member-info">
                 <div className="member-info-content">
                   <h4>Fernanda Fuentes</h4>
