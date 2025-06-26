@@ -3,6 +3,46 @@ import { useTranslation } from "react-i18next";
 const TopBar = () => {
   const [t, i18n] = useTranslation("global");
 
+  const languages = [
+    {
+      code: "es",
+      label: "ES",
+      flag: (
+        <img
+          src={"../img/icons/chile_18293.ico"}
+          alt="CL"
+          style={{ width: "0.8em", verticalAlign: "middle" }}
+        />
+      ),
+    },
+    {
+      code: "en",
+      label: "EN",
+      flag: (
+        <img
+          src={"../img/icons/estados-unidos.png"}
+          alt="CL"
+          style={{ width: "0.8em", verticalAlign: "middle" }}
+        />
+      ),
+    },
+    {
+      code: "por",
+      label: "POR",
+      flag: (
+        <img
+          src={"../img/icons/brasil.png"}
+          alt="CL"
+          style={{ width: "0.8em", verticalAlign: "middle" }}
+        />
+      ),
+    },
+  ];
+
+  const currentLang = i18n.language || "es";
+  const currentLangObject = languages.find((l) => l.code === currentLang);
+  const currentFlag = currentLangObject?.flag || "🌐";
+
   return (
     <div id="topbar" className="d-flex align-items-center">
       <div className="container d-flex justify-content-center justify-content-md-between">
@@ -14,17 +54,28 @@ const TopBar = () => {
             <span>{t("topbar.schedule")} </span>
           </i>
         </div>
-        <div htmlFor="select" className="language-switcher">
+        <div className="language-switcher position-relative">
+          {/* Bandera del idioma actual */}
+          <span
+            className="current-flag"
+            style={{
+              fontSize: "1.5rem",
+              marginRight: "0.5rem",
+              verticalAlign: "middle",
+            }}>
+            {currentFlag}
+          </span>
           <select
             name="select"
             id="select"
             className="language-switcher-input"
-            value={t.language}
-            onChange={(e) => i18n.changeLanguage(e.target.value)}
-          >
-            <option value="es">ES</option>
-            <option value="en">EN</option>
-            <option value="por">POR</option>
+            value={currentLang}
+            onChange={(e) => i18n.changeLanguage(e.target.value)}>
+            {languages.map((lang) => (
+              <option key={lang.code} value={lang.code}>
+                {lang.label}
+              </option>
+            ))}
           </select>
         </div>
       </div>
