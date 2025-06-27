@@ -110,7 +110,8 @@ const Header = () => {
         </Link>
 
         {isSticky && (
-          <div style={{ marginLeft: "10px", fontSize: "1.5rem" }}>
+          <div style={{ marginLeft: "10px", fontSize: "1.5rem" }}
+            className="sticky-flag">
             {currentFlag}
           </div>
         )}

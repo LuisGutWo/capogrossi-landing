@@ -9,6 +9,10 @@ import GallerySection from "./GallerySection";
 import WorkWithUs from "./WorkWithUs";
 
 const Home = () => {
+  if (!AboutSection || !GalleryAboutUsSection || !MenuSection || !ChefsSection || !SpecialsSection || !ContactSection || !BookATableSection || !GallerySection || !WorkWithUs) {
+    throw new Error("Any of the components is null or undefined");
+  }
+
   return (
     <>
       <AboutSection />

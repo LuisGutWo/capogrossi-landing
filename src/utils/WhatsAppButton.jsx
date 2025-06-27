@@ -3,13 +3,18 @@ import Tooltip from "react-bootstrap/Tooltip";
 import "animate.css";
 
 const WhatsAppButton = () => {
-  const renderTooltip = (props) => (
-    <Tooltip id="button-tooltip" {...props}>
-      <b>Hola!</b>
-      <br />
-      quieres reservar una mesa?
-    </Tooltip>
-  );
+  const renderTooltip = (props) => {
+    if (!props) return null;
+    return (
+      <Tooltip id="button-tooltip" {...props}>
+        <b>Hola!</b>
+        <br />
+        Deseas reservar una mesa?
+        <br />
+        <b>Escríbenos !</b>
+      </Tooltip>
+    );
+  };
 
   return (
     <>

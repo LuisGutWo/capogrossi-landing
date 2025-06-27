@@ -21,16 +21,16 @@ function App() {
   const [sticky, setSticky] = useState(false);
 
   useEffect(() => {
+    if (typeof window === "undefined" || window === null) {
+      throw new Error("window is undefined or null");
+    }
+
     const handleScroll = () => {
       setSticky(window.scrollY > 200);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  if (typeof window === "undefined" || window === null) {
-    throw new Error("window is undefined or null");
-  }
 
   const [loading, setLoading] = useState(true);
 
@@ -41,11 +41,7 @@ function App() {
 
   return (
     <div id="app">
-      {loading && (
-        <div
-          id="preloader"
-        />
-      )}
+      {loading && <div id="preloader" />}
       {!loading && (
         <>
           <TopBar />

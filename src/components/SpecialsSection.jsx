@@ -12,6 +12,11 @@ AOS.init();
 
 const SpecialsSection = () => {
   const [t] = useTranslation("global");
+
+  if (!t) {
+    throw new Error("Translation is not available");
+  }
+
   return (
     <section id="specials" className="specials">
       <Container className="container" data-aos="fade-up">

@@ -41,7 +41,7 @@ const TopBar = () => {
 
   const currentLang = i18n.language || "es";
   const currentLangObject = languages.find((l) => l.code === currentLang);
-  const currentFlag = currentLangObject?.flag || "🌐";
+  const currentFlag = currentLangObject?.flag || " ";
 
   return (
     <div id="topbar" className="d-flex align-items-center">
@@ -70,7 +70,11 @@ const TopBar = () => {
             id="select"
             className="language-switcher-input"
             value={currentLang}
-            onChange={(e) => i18n.changeLanguage(e.target.value)}>
+            onChange={(e) => {
+              if (e.target.value) {
+                i18n.changeLanguage(e.target.value);
+              }
+            }}>
             {languages.map((lang) => (
               <option key={lang.code} value={lang.code}>
                 {lang.label}

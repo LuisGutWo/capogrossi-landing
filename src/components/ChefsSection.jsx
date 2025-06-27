@@ -22,7 +22,7 @@ const ChefsSection = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="member" data-aos="zoom-in" data-aos-delay="100">
-              <img src={ChefAndImage} className="img-fluid" alt="" />
+              <img src={ChefAndImage} className="img-fluid" alt="Chef Andrea Bernardi - Image" />
               <div className="member-info">
                 <div className="member-info-content">
                   <h4>Andrea Bernardi</h4>
@@ -47,7 +47,7 @@ const ChefsSection = () => {
 
           <div className="col-lg-4 col-md-6">
             <div className="member" data-aos="zoom-in" data-aos-delay="200">
-              <img src={ChefFerImage} className="img-fluid" alt="" />
+              <img src={ChefFerImage} className="img-fluid" alt="Chef Fernanda Fuentes - Image" />
               <div className="member-info">
                 <div className="member-info-content">
                   <h4>Fernanda Fuentes</h4>

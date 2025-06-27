@@ -6,6 +6,11 @@ AOS.init();
 
 const GallerySection = () => {
   const [t] = useTranslation("global");
+
+  if (!t) {
+    return <div>Error: Missing translation</div>;
+  }
+
   return (
     <section id="gallery" className="gallery">
       <div className="container-fluid" data-aos="fade-up" data-aos-delay="100">
