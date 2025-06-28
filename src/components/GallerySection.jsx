@@ -17,21 +17,21 @@ const GallerySection = () => {
         <div className="row g-0 d-flex justify-content-center align-items-flex-start flex-wrap gap-5">
           <div className="col-lg-3 col-md-4">
             <div className="gallery-item">
-              <h1>{t("gallery.title_4")}</h1>
+              <h2>{t("gallery.title_4")}</h2>
               <h6>{t("gallery.description_1")}</h6>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-4">
             <div className="gallery-item">
-              <h1>{t("gallery.title_5")}</h1>
+              <h2>{t("gallery.title_5")}</h2>
               <h6>{t("gallery.description_2")}</h6>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-4">
             <div className="gallery-item">
-              <h1>{t("gallery.title_6")}</h1>
+              <h2>{t("gallery.title_6")}</h2>
               <h6>{t("gallery.description_3")}</h6>
             </div>
           </div>

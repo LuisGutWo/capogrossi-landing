@@ -1,4 +1,3 @@
-
 const Footer = () => {
   return (
     <footer id="footer">
@@ -73,7 +72,8 @@ const Footer = () => {
             <div className="col-lg-4 col-md-6 footer-newsletter">
               <h4>Nuestras Novedades</h4>
               <p>
-                Entérate primero de nuestras novedades, productos de temporada y actualizaciones de nuestra carta directamente a tu correo.
+                Entérate primero de nuestras novedades, productos de temporada y
+                actualizaciones de nuestra carta directamente a tu correo.
               </p>
               <form action="" method="post">
                 <input type="email" name="email" />
@@ -84,7 +84,15 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="container"></div>
+      <div className="container">
+        <div className="copyright">
+          &copy; {new Date().getFullYear()} <strong>Capogrossi</strong>. Todos
+          los derechos reservados.
+        </div>
+        <div className="credits">
+          Diseñado por <a href="https://lagmedia.cl">LAG Media</a>
+        </div>
+      </div>
     </footer>
   );
 };

@@ -9,7 +9,7 @@ const NotFound = () => {
             <div className="col-sm-12 ">
               <div className="col-sm-10 col-sm-offset-1  text-center">
                 <div className="four-zero-four-bg">
-                  <h1 className="text-center ">404</h1>
+                  <h2 className="text-center ">404</h2>
                 </div>
 
                 <div className="constant-box-404">

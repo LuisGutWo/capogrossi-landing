@@ -19,20 +19,21 @@ import WhatsAppButton from "./utils/WhatsAppButton";
 
 function App() {
   const [sticky, setSticky] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     if (typeof window === "undefined" || window === null) {
-      throw new Error("window is undefined or null");
+      console.error("window is undefined or null");
+      return;
     }
 
     const handleScroll = () => {
       setSticky(window.scrollY > 200);
     };
+
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 1000);
@@ -44,6 +45,21 @@ function App() {
       {loading && <div id="preloader" />}
       {!loading && (
         <>
+          <title>Capogrossi - Home </title>
+          <meta
+            name="description"
+            content="Capogrossi - Authentic Italian Cuisine"
+          />
+          <meta
+            name="keywords"
+            content="Italiana, Restaurant, Capogrossi, Comida Italiana, Pasta, Italian Food, Authentic Italian Cuisine"
+          />
+          <meta name="author" content="Capogrossi Team" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
+          <link rel="icon" href="/img/capo.svg" />
           <TopBar />
           <header className={`${sticky ? "sticky" : ""}`}>
             <Header />
